@@ -58,7 +58,7 @@ export default function Home() {
                                 <label class="mb-2 font-bold text-lg text-gray-900" for="password">Password</label>
                                 <input class="border py-2 px-3 text-grey-800" type="password" name="password" id="password" required placeholder='Enter your password'/>
                             </div>
-                            <button class="block bg-teal-400 hover:bg-teal-600 text-white uppercase text-lg mx-auto p-4 rounded" type="submit">Create Account</button>
+                            <button class="block bg-blue-500 hover:bg-teal-600 text-white uppercase text-lg mx-auto p-4 rounded" type="submit">Register</button>
                         </form>
                         <a class="block w-full text-center no-underline mt-4 text-sm text-gray-700 hover:text-gray-900" href="/login">Already have an account?</a>
                     </div>
