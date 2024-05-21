@@ -1,9 +1,11 @@
 import React from 'react'
 
 export default function Footer() {
+
+    let getEmail = 'nikitakose1414@gmail.com'
+    let phoneNumber = '+91 8308606183'
     return (
         <>
-
             <footer class="bg-gray-900">
                 <div class="max-w-screen-xl px-4 pt-16 pb-6 mx-auto sm:px-6 lg:px-8 lg:pt-24">
                     <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
@@ -313,7 +315,11 @@ export default function Footer() {
                                             </svg>
 
                                             <span class="text-white transition group-hover:text-white/75">
-                                                john@doe.com
+                                                
+                                                <a href={`mailto:${getEmail}`} className='text-white transition group-hover:text-white/75'>nikitakose1414@gmail.com</a>
+
+                                                
+
                                             </span>
                                         </a>
                                     </li>
@@ -339,7 +345,12 @@ export default function Footer() {
                                             </svg>
 
                                             <span class="text-white transition group-hover:text-white/75">
-                                                0123456789
+                                              
+
+                                                <a href={`tel:${phoneNumber}`} class="text-white transition group-hover:text-white/75">
+                                        <h5 className='py-3 fw-normal'>+91 8308606183</h5>
+                                    </a>
+
                                             </span>
                                         </a>
                                     </li>
