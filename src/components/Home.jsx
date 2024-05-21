@@ -43,20 +43,20 @@ export default function Home() {
                         <form onSubmit={formHandler}>
                             <div class="flex flex-col mb-4">
                                 <label class="mb-2 font-bold text-lg text-gray-900" for="first_name">First Name</label>
-                                <input class="border py-2 px-3 text-grey-800" type="text" name="first_name" id="first_name" />
+                                <input class="border py-2 px-3 text-grey-800" type="text" name="first_name" id="first_name" required placeholder='Enter your name'/>
                             </div>
 
                             <div class="flex flex-col mb-4">
                                 <label class="mb-2 font-bold text-lg text-gray-900" for="email">Email</label>
-                                <input class="border py-2 px-3 text-grey-800" type="email" name="email" id="email" />
+                                <input class="border py-2 px-3 text-grey-800" type="email" name="email" id="email" required placeholder='Enter your email id'/>
                             </div>
                             <div class="flex flex-col mb-4">
                                 <label class="mb-2 font-bold text-lg text-gray-900" for="mobile_number">Mobile No</label>
-                                <input class="border py-2 px-3 text-grey-800" type="text" name="mobile_number" id="mobile_number" />
+                                <input class="border py-2 px-3 text-grey-800" type="number" name="mobile_number" id="mobile_number" required placeholder='Enter your mobile number'/>
                             </div>
                             <div class="flex flex-col mb-4">
                                 <label class="mb-2 font-bold text-lg text-gray-900" for="password">Password</label>
-                                <input class="border py-2 px-3 text-grey-800" type="password" name="password" id="password" />
+                                <input class="border py-2 px-3 text-grey-800" type="password" name="password" id="password" required placeholder='Enter your password'/>
                             </div>
                             <button class="block bg-teal-400 hover:bg-teal-600 text-white uppercase text-lg mx-auto p-4 rounded" type="submit">Create Account</button>
                         </form>
